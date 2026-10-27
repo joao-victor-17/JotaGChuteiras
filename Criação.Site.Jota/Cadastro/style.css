@@ -1,0 +1,66 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f5fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4c8bdd;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#menu ul{
+    list-style: none;
+}
+
+
+h2 {
+    text-align: flex-start;
+    padding: 20px;
+    background-color: #4c8bdd;
+    border: black 1px solid;
+}
+
+h3 {
+    text-align: flex-end;
+    padding: 20px;
+}
+
+main {
+display: flex;
+flex-direction: column;
+align-items: center;
+border: black 1px solid;
+}
+
+#Cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 10px;
+    padding: 0px;
+}
+
+#Endereço {
+background-color: #4c8bdd;
+border: black 1px solid;
+}
+
+.botaodois {
+    background-color: #4c8bdd;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #4c8bdd;
+    text-align: center;
+    color: black;
+    border: black 1px solid;
+}
